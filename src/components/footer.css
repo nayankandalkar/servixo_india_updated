@@ -1,0 +1,28 @@
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(246, 246, 246);
+    flex-wrap: wrap;
+}
+
+.footer-content{
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: rgb(65, 61, 61);
+}
+.logos{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+
+}

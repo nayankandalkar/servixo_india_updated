@@ -1,0 +1,52 @@
+
+.imageSlider{
+     margin-top: 30px;
+    border-radius: 10px;
+    width: 60%;
+    height: 400px;
+    background-image: url('../ascets/image-1.jpg');
+    background-size: 100% 100%;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    animation:  changeimage 20s ease-in infinite;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes changeimage {
+
+    0%{
+        background-image: url(../ascets/image-1.jpg);
+    }
+    
+    20%{
+        background-image: url(../ascets/image-2.jpg);
+    }
+
+    40%{
+        background-image: url(../ascets/image-3.jpg);
+    }
+    60%{
+        background-image: url(../ascets/image-4.jpg);
+    }
+    80%{
+        background-image: url(../ascets//image-5.jpg);
+    }
+    
+}
+
+@media screen and ( max-width :700px) {
+    .box{
+     
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .imageSlider{
+        width: 90vw;
+        height: 250px;
+    }
+}
