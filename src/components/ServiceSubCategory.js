@@ -6,7 +6,7 @@ const ServiceSubCategory = ({data}) => {
   return (
     <div className='data'>
 
-    <p className='a'>services </p>
+    <p className='a'> Newly added  services </p>
 
 <div className='container'>
 

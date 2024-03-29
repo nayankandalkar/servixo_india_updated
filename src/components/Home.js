@@ -10,6 +10,9 @@ import ServicesVideoSnap from './ServicesVideoSnap'
 import ServiceSubCategory from './ServiceSubCategory'
 import MostBookedServiceSubCategory from './MostBookedServiceSubCategory'
 import Navbar2 from './Navbar2'
+import Map from './Map'
+ 
+import ElfSightApps from './Review'
  
 
 const Home = () => {
@@ -104,11 +107,20 @@ const Home = () => {
   imagesLoaded ?
   (<MostBookedServiceSubCategory data={data}></MostBookedServiceSubCategory>):(<div></div> )
 }
+
+
+<ElfSightApps></ElfSightApps>
+ 
+
     <Footer></Footer>
 
 
 
+   
+  
     
+
+
     </div>
   )
 }

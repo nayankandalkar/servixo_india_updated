@@ -61,7 +61,14 @@ function Slider5() {
     };
 
     return (
-        <div className="slide  a  ">
+
+
+        
+
+        <div className="slide  a  slider-section ">
+
+
+
             <div className="slide-container">
                 <div className="slides">
                     {slideImages.map((image, index) => (
@@ -78,6 +85,19 @@ function Slider5() {
                     ))}
                 </div>
             </div>
+
+
+
+            <div  className='section-text'>
+           SERVIXO INDIA anywhere for anytime for only your ease 
+           </div>
+        
+
+       
+      
+
+
+         
         </div>
     );
 }

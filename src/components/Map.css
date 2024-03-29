@@ -1,0 +1,15 @@
+
+.map{
+    background-color: aqua;
+    display: flex;
+}
+
+.google{
+    width: 50%;
+}
+.start{
+    border-color:   black;
+    border-width: 2px;
+    border-top: 50px;
+    width: 50px;
+}

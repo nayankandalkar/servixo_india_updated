@@ -46,8 +46,17 @@
 @media(max-width: 800px){
     .category{
         width: 130px;
-        height: 130px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+
+    .category p{
+        font-size: 10px;
+    }
+    
 
   }
   @media(max-width: 400px){

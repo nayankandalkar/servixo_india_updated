@@ -1,6 +1,6 @@
 .video{
-    width: 300px;
-    height: 540px;
+    width: 200px;
+    height: 350px;
     
     box-shadow: 1px -1px 23px 6px rgba(0,0,0,0.45) inset,
 25px 0px 20px -20px rgba(0,0,0,0.45),
@@ -8,6 +8,7 @@
 -25px 0px 20px -20px rgba(0,0,0,0.45);
 
     border-radius: 30px;
+    
 }
 
 .container{
@@ -16,17 +17,17 @@
     justify-content: center ;
     align-items: center;
     gap: 50px;
-    margin: 50px;
-    width: 80%;
+       width: 100%;
+       height: 100%;
+      
     
     
 }
 
-.data{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
+.service-data{
+  
+    width: 50%;
+   
 }
 
 .heading{
@@ -47,8 +48,69 @@
     width: 120px;
     height: 210px;
     border-radius: 10px;
+    
    }
+
+   .event-snap{
+    flex-wrap: wrap;
+   }
+
+
+   .service-data{
+   
+     width: 100%;
+    
+ }
+   
+ .event-box img{
+    width: 95%;
+    height: 100%;
+}
+   
   }
   @media(max-width: 400px){
+    
    
+}
+
+.event-box{
+    background-color: aquamarine;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+     
+}
+
+.event-box img{
+    border-radius: 10px;
+    box-shadow: -33px 10px 38px 22px rgba(83, 66, 36, 0.1);
+}
+
+.event-box h1{
+    position: absolute;
+    top: 0;
+    color: rgba(28, 27, 30, 0.374);
+    font-weight: bolder;
+    
+    
+}
+.event-box p{
+    position: absolute;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(196, 60, 11);
+     font-size: 30px;
+}
+
+.event-snap{
+    display: flex;
+    align-items: center ;
+    justify-content:  space-evenly  ;
+    width: 100%;
+   margin-top: 50px;
+    
 }

@@ -1,0 +1,34 @@
+
+.mostbooked-container{
+    width: 50%;
+}
+
+.mostbooked-map-service{
+    display: flex;
+    flex-wrap:wrap ;
+   
+}
+  
+.most-map{
+    margin-top: 50px;
+    width:750px;
+    height: 450px;
+}
+@media(max-width: 800px){
+   
+.mostbooked-container{
+    width: 100%;
+}
+  }
+  @media(max-width: 400px){
+     
+.mostbooked-container{
+    width: 100%;
+}
+
+.most-map{
+    margin-top: 50px;
+    width:50px;
+}
+    
+  }

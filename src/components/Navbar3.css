@@ -65,6 +65,16 @@
     display: none;
   }
 
+  .input-search{
+        
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+  }
+
   
   @media(max-width: 800px){
     .hideOnMobile{
@@ -75,7 +85,19 @@
     }
 
     .search{
-        display: none;
+        display: block;      
+    }
+
+    .input-search{
+        
+       width:  200px;
+       height: 40px;
+       border-radius: 5px;
+       text-align: center;
+       border: 2px solid black;
+    }
+    .typing{
+      display: none;
     }
 
     .location{
@@ -91,6 +113,16 @@
     .search{
         display: none;
     }
+
+    .input-search{
+        
+      width:  150px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      border: 2px solid black;
+   }
+    
   }
 
   .sidebar.visible {
@@ -107,4 +139,5 @@
 .image{
     border-radius: 10px;
 }
+
  
