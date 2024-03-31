@@ -1,16 +1,24 @@
 import React, { useEffect } from 'react';
 
-const ElfSightApps  = () => {
+const ElfSightApps = () => {
   useEffect(() => {
+    // Create a script element
     const script = document.createElement('script');
     script.src = 'https://static.elfsight.com/platform/platform.js';
-    script.async = true;
+    script.defer = true; // Defer loading to ensure it doesn't block rendering
+    script.addEventListener('load', () => {
+      // Once script is loaded, initialize ElfSightApps
+      if (window.ElfSightApps && typeof window.ElfSightApps.init === 'function') {
+        window.ElfSightApps.init();
+      } else {
+        console.error('ElfSightApps is not available.');
+      }
+    });
+    
+    // Append the script to the document body
     document.body.appendChild(script);
 
-    script.onload = () => {
-      window.ElfSightApps.init();
-    };
-
+    // Clean up: remove the script when the component unmounts
     return () => {
       document.body.removeChild(script);
     };
@@ -21,4 +29,4 @@ const ElfSightApps  = () => {
   );
 };
 
-export default ElfSightApps ;
+export default ElfSightApps;

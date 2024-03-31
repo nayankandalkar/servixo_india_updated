@@ -65,6 +65,11 @@
  .event-box img{
     width: 95%;
     height: 100%;
+    margin: 30px;
+}
+
+.event-box p{
+ margin: 50px;
 }
    
   }
