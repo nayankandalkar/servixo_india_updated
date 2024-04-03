@@ -25,7 +25,7 @@ const ElfSightApps = () => {
   }, []);
 
   return (
-    <div className="elfsight-app-408fca74-2025-48b5-9292-6722e6999dcb" data-elfsight-app-lazy></div>
+    <div className="elfsight-app-09272a0d-e3e0-4b18-9e47-0030fd343501" data-elfsight-app-lazy></div>
   );
 };
 

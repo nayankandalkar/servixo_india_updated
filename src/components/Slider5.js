@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './slider3.css'; // Import your CSS file
 
+ import serviceimage from '../ascets/servixco.png'
+
+  import anywhereimage from '../ascets/anywhere-anytime-4-3-2024.gif'
+import foronly from '../ascets/for-only-your-ease-4-3-2024 (1).png'
+
 function Slider5() {
     const [counter, setCounter] = useState(0);
     const [slideImages, setSlideImages] = useState([]);
     const [imagesLoaded, setImagesLoaded] = useState(false);
+    
 
     useEffect(() => {
         fetchImages();
@@ -65,7 +71,7 @@ function Slider5() {
 
         
 
-        <div className="slide  a  slider-section ">
+        <div className="slide    slider-section ">
 
 
 
@@ -89,7 +95,10 @@ function Slider5() {
 
 
             <div  className='section-text'>
-           SERVIXO INDIA anywhere for anytime for only your ease 
+             <img src={serviceimage} className='servixco-text a'></img>
+ 
+          <img src={anywhereimage}  className='secoundary-text'></img> 
+          <img src={foronly} className='secoundary-text'></img> 
            </div>
         
 

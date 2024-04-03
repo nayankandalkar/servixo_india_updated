@@ -14,9 +14,9 @@
         <div className='footer-content'>
             <h1>Company</h1>
           <a href=''>  About us </a> 
-       <a href=''>   Terms & conditions </a>
-       <a href=''> Privacy policy </a>
-       <a href=''> Anti-discrimination policy </a>
+       <a href='/Terms-and-Conditions'>   Terms & conditions </a>
+       <a href='/privacy-policy'> Privacy policy </a>
+       <a href='/Cancellation-Refund-Policy'> Cancellation & Refund Policy </a>
        <a href=''>   UC impact </a>
        <a href=''>  Careers </a>
         </div>
@@ -28,7 +28,7 @@
           <a href=''>   UC reviews </a>
           <a href=''> Categories near you </a>
           <a href=''> Blog </a>
-          <a href=''> Contact us </a>
+          <a href='/Contact-us'> Contact us </a>
 
         </div>
 

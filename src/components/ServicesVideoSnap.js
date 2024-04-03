@@ -13,7 +13,7 @@ const ServicesVideoSnap = ({ data }) => {
 
         <div className='service-data'>
        
-        <p  className='heading'>Services Snap</p> 
+        <p  className='heading'>our Services video Snap</p> 
 
             <div className='container'>
 
@@ -36,31 +36,7 @@ const ServicesVideoSnap = ({ data }) => {
             
         </div>
 
-              <div>
-              <p  className='heading'> Event</p> 
-
- 
-         <div  className='event-box'  >
-
            
-
-            {
-                 
-              <img src={`https://servixoindia.com/servixoindia/uploads/event-image/${data.data.Events[0].event_image}`} ></img>
-            
-            }
-
-            {
-              <h1>{data.data.Events[0].name}</h1>  
-            }
-
-            {
-                <p>{data.data.Events[0].description}</p>
-            }
-         </div>
-
-         </div>
-          
         </div>
 
         </div>

@@ -9,7 +9,7 @@ const base ="https://servixoindia.com/servixoindia/uploads/category/"
     
   return (
     <div className='data'>
-    <p className='para' >  Categories</p> 
+    <p className='para' >  Categories We provide</p> 
     
     <div className='conatiner'>
         {

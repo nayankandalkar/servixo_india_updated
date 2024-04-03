@@ -24,7 +24,8 @@
     position: relative;
     width: 900px;
     height: 350px;
-    border: 3px solid #ede6d6;
+    /* border: 3px solid #ede6d6; */
+     border-radius: 10px;
     box-shadow: 0 0 8px 2px rgba(0,0,0,0.2);
 }
 .slide-container .slides{
@@ -79,7 +80,7 @@ span.next:hover, span.prev:hover{
     width: 15px;
     height: 15px;
     margin: 0px 2px;
-    border: 3px solid #bbb;
+    border: 3px solid #1d9d0a;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
@@ -150,15 +151,21 @@ span.next:hover, span.prev:hover{
 
  
 .slide-container{
-    height: 500px;
+    height: 300px;
+    width: 500px;
     margin: 0px;
 }
 
 .slider-section{
     display: flex;
-    gap: 10px;
-    margin-bottom: 50px;
+    gap: 30px;
+    padding: 50px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(../ascets/background.jpg);
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .section-text{
     font-size: 20px;
@@ -177,13 +184,91 @@ span.next:hover, span.prev:hover{
     .section-text{
          width: 100%;
     }
-
+     
+    .servixco-text-mobile{
+        display: none;
+     
+      }
+     
   }
+
+
+
   @media(max-width: 400px){
-    .section-text{
-         
-          
-        width: 100%;
-   }
+ 
+
+  
+
+  .secoundary-text{
+    width: 300px;
+   
+  }
+  
+ 
+
+ 
     
   }
+
+
+
+
+
+
+
+  .servixco-text-mobile{
+    
+    display: none;
+    background-color: rebeccapurple;
+    width: 300px;
+  }
+
+
+
+  @media(min-width: 1520px){
+
+    
+    
+  }
+
+
+
+
+  .section-text span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
+
+  .servixco-text{
+    width: 650px;
+  }
+
+  .secoundary-text{
+    width: 350px;
+  margin: 0;
+  padding: 0;
+  }
+  .section-text{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 0;
+    flex-direction: column;
+  }
+
+  
+
+  /* Adjust image width in the media query */
+@media (max-width: 600px) {
+    .section-text img {
+        /* Adjust width as necessary */
+        width: 300px; /* or any other desired width */
+    }
+    .secoundary-text img {
+        width: 100px;
+        font-size: 50px;
+    }
+
+    
+}
